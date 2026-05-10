@@ -163,7 +163,7 @@ function Navigation({ theme, toggleTheme }) {
       <div className={styles.navInner}>
         <div className={styles.navLogo}>
           <Image src="/images/logo.png" alt="ARS Logo" width={32} height={32} className={styles.navLogoImg} />
-          <span className={styles.navLogoText}>ARS</span>
+          <span className={styles.navLogoText}>ARS <sub>HITMS</sub></span>
         </div>
         <div className={styles.navLinks}>
           <a href="#about" className={styles.navLink}>About</a>
