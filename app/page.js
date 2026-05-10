@@ -537,8 +537,8 @@ function TeamSection() {
     { name: "Hasan Aziz", role: "General Secretary", img: "/images/secretary.png", quote: "Keeping every task organized, efficient, and professionally managed." },
     { name: "Shaheryar Ali ", role: "Treasurer", img: "/images/Sh.png", quote: "Managing finances responsibly to ensure growth, stability, and success." },
     { name: "Hooriya Shaikh", role: "Senior Vice President", img: "/images/coordinator.png", quote: "Empowering teams with leadership, dedication, and problem-solving skills." },
-    { name: "Simran", role: "General Secretary", img: "/images/coordinator.png", quote: "Maintaining coordination and smooth communication in every activity." },
-    { name: "Raj Surmeda", role: "Web & Design Coordinator", img: "/images/raju.png", quote: "Designing modern digital experiences through creativity and technology." },
+    { name: "Simran", role: "General Secretary", img: "/images/image.png", quote: "Maintaining coordination and smooth communication in every activity." },
+    { name: "Raj Surmeda", role: "Web & Design Coordinator", img: "/images/Raju.png", quote: "Designing modern digital experiences through creativity and technology." },
 
   ];
 
