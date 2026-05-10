@@ -532,12 +532,12 @@ function TeamSection() {
   const team = [
     { name: "Dr. Asad Raza", role: "Faculty Advisor", img: "/images/sir_asad.png", quote: "Guiding future innovators through research, knowledge, and academic excellence." },
     { name: "Saad Kaimkhani", role: "President", img: "/images/president.png", quote: "Turning ideas into impactful leadership with vision and determination." },
-    { name: "Faraz Rajar", role: "Vice President", img: "/images/vice_president.png", quote: "Building strong teamwork through innovation, strategy, and collaboration." },
-    { name: "Abdul Rehman Ul Haq", role: "Social Media Manager", img: "/images/social.png", quote: "Creating digital engagement through creativity, trends, and communication." },
-    { name: "Hasan Aziz", role: "General Secretary", img: "/images/secretary.png", quote: "Keeping every task organized, efficient, and professionally managed." },
-    { name: "Shaheryar Ali ", role: "Treasurer", img: "/images/Sh.png", quote: "Managing finances responsibly to ensure growth, stability, and success." },
     { name: "Hooriya Shaikh", role: "Senior Vice President", img: "/images/coordinator.png", quote: "Empowering teams with leadership, dedication, and problem-solving skills." },
+    { name: "Faraz Ali", role: "Vice President", img: "/images/vice_president.png", quote: "Building strong teamwork through innovation, strategy, and collaboration." },
     { name: "Simran", role: "General Secretary", img: "/images/image.png", quote: "Maintaining coordination and smooth communication in every activity." },
+    { name: "Hassan Aziz", role: "General Secretary", img: "/images/secretary.png", quote: "Keeping every task organized, efficient, and professionally managed." },
+    { name: "Shahriyar Ali ", role: "Treasurer", img: "/images/Sh.png", quote: "Managing finances responsibly to ensure growth, stability, and success." },
+    { name: "Abdul Rehman Ul Haq", role: "Social Media Manager", img: "/images/social.png", quote: "Creating digital engagement through creativity, trends, and communication." },
     { name: "Raj Surmeda", role: "Web & Design Coordinator", img: "/images/Raju.png", quote: "Designing modern digital experiences through creativity and technology." },
 
   ];
