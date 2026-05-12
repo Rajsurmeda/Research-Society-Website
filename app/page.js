@@ -536,7 +536,7 @@ function TeamSection() {
     { name: "Hooriya Shaikh", role: "Senior Vice President", img: "/images/coordinator.png", quote: "Empowering teams with leadership, dedication, and problem-solving skills." },
     { name: "Faraz Ali", role: "Vice President", img: "/images/vice_president.png", quote: "Building strong teamwork through innovation, strategy, and collaboration." },
     { name: "Simran-un-Nisa", role: "General Secretary", img: "/images/image.png", quote: "Maintaining coordination and smooth communication in every activity." },
-    { name: "Muhammad Hasan ", role: "General Secretary", img: "/images/secretary.png", quote: "Keeping every task organized, efficient, and professionally managed." },
+    { name: "Muhammad Hasan ", role: "Joint Secretary", img: "/images/secretary.png", quote: "Keeping every task organized, efficient, and professionally managed." },
     { name: "Shahriyar Ali ", role: "Treasurer", img: "/images/Sh.png", quote: "Managing finances responsibly to ensure growth, stability, and success." },
     { name: "Abdul Rehman Ul Haq", role: "Social Media Manager", img: "/images/social.png", quote: "Creating digital engagement through creativity, trends, and communication." },
     { name: "Raj Surmeda", role: "Web & Design Coordinator", img: "/images/Raju.png", quote: "Designing modern digital experiences through creativity and technology." },
