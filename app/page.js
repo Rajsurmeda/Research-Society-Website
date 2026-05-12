@@ -234,10 +234,10 @@ function WelcomeSection() {
 /* ===== Section 2: Hero ===== */
 function HeroSection() {
   const stats = [
-    { number: "50+", label: "Research Papers" },
-    { number: "20+", label: "Active Members" },
+    { number: "Pending", label: "Research Papers" },
+    { number: "10", label: "Active Members" },
     { number: "1+", label: "Workshops" },
-    { number: "10+", label: "Collaborations" },
+    { number: "5+", label: "Collaborations" },
   ];
 
   return (
@@ -538,7 +538,7 @@ function TeamSection() {
     { name: "Muhammad Hasan ", role: "General Secretary", img: "/images/secretary.png", quote: "Keeping every task organized, efficient, and professionally managed." },
     { name: "Shahriyar Ali ", role: "Treasurer", img: "/images/Sh.png", quote: "Managing finances responsibly to ensure growth, stability, and success." },
     { name: "Abdul Rehman Ul Haq", role: "Social Media Manager", img: "/images/social.png", quote: "Creating digital engagement through creativity, trends, and communication." },
-    { name: "Raj Surmeda", role: "Web & Design Coordinator", img: "/images/Raju.png", quote: "Designing modern digital experiences through creativity and technology." },
+    { name: "Raj Surmeda", role: "Web & Design Coordinator", img: "/images/Raju.png", quote: "Designing modern digital experiences through creativity and technology.” Focused on the intersection of design, AI automation, and emerging machine learning technologies, building smart, efficient, and user-focused digital solutions." },
 
   ];
 
