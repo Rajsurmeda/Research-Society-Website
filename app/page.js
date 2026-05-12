@@ -531,7 +531,7 @@ function TimelineSection() {
 function TeamSection() {
   const team = [
     { name: "Dr. Asad Raza", role: "Faculty Advisor", img: "/images/sir_asad.png", quote: "Guiding future innovators through research, knowledge, and academic excellence." },
-    { name: "Ahmed Asghar Memon", role: "Co Faculty Advisor", img: "/images/Ahmad.png", quote: "Supporting students in their academic journey by fostering innovation, critical thinking, and practical learning." },
+    { name: "Ahmed Asghar Memon", role: "Co Faculty Advisor", img: "/images/Ahmad.png", quote: "Supporting students in innovation and learning." },
     { name: "Saad Kaimkhani", role: "President", img: "/images/president.png", quote: "Turning ideas into impactful leadership with vision and determination." },
     { name: "Hooriya Shaikh", role: "Senior Vice President", img: "/images/coordinator.png", quote: "Empowering teams with leadership, dedication, and problem-solving skills." },
     { name: "Faraz Ali", role: "Vice President", img: "/images/vice_president.png", quote: "Building strong teamwork through innovation, strategy, and collaboration." },
