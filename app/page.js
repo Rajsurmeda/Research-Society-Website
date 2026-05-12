@@ -33,7 +33,7 @@ function WelcomePopup({ onComplete }) {
           <Image src="/images/logo.png" alt="ARS Logo" width={80} height={80} className={styles.popupLogoImg} />
         </div>
         <h1 className={styles.popupTitle}>
-          <span className="gradient-text">ARS</span>
+          <span className="gradient-text">ARS <sup>HITMS</sup></span>
         </h1>
         <p className={styles.popupSubtitle}>Academic &amp; Research Society</p>
         <div className={styles.popupQuoteBox}>
