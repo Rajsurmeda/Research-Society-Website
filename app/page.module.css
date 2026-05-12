@@ -166,109 +166,115 @@
 }
 
 /* ===== Navigation ===== */
+/* ===== Navigation ===== */
 .nav {
   position: fixed;
-  top: 0;
+  top: 20px; /* Top se thora neechay taake floating effect aaye */
   left: 0;
   right: 0;
   z-index: 100;
-  padding: 16px 24px;
-  background: rgba(5, 5, 16, 0.8);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-
+  display: flex;
+  justify-content: center; /* Inner pill ko center karne ke liye */
+  padding: 0 20px; /* Mobile screens ke liye safe area */
+  pointer-events: none; /* Taake nav ke aas paas clicks pass through ho sakein */
 }
 
 .navInner {
   max-width: 1000px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  
+  /* Image jesa Dark Pill Design */
+  background: #1c1c1c; 
+  border-radius: 9999px; /* Golai (Pill Shape) */
+  padding: 8px 8px 8px 12px; /* Button aur logo ke ird-gird space */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  pointer-events: auto; /* Nav items ko clickable banata hai */
 }
 
 .navLogo {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
 }
 
 .navLogoImg {
-  object-fit: cover;
+  object-fit: contain; /* Image ko properly fit karega */
   border-radius: 50%;
   background-color: white;
+  width: 44px !important; /* Perfect circle bananay ke liye fix width */
+  height: 44px !important; /* Perfect circle bananay ke liye fix height */
+  padding: 6px; /* White circle ke andar image ko set karne ke liye */
 }
 
 .navLogoText {
   font-family: var(--font-primary, 'Outfit', sans-serif);
   font-size: 20px;
-  font-weight: 700;
-  background: linear-gradient(135deg, #a29bfe, #fd79a8);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-weight: 500;
+  color: #ffffff; /* Gradient hata kar image jesa white kar diya */
+  letter-spacing: 0.5px;
 }
 
 .navLinks {
   display: flex;
-  gap: 8px;
+  gap: 24px; /* Links ke darmiyan spacing barha di */
   align-items: center;
-  border: 1px solid rgb(8, 239, 47);
-  border-radius: 10px;
-  padding: 5px;
-
+  /* Purana green border aur padding hata di taake clean look aaye */
 }
 
 .navLink {
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--text-secondary);
-  transition: color 0.3s ease;
-  letter-spacing: 0.3px;
-  background: var(--surface-glass);
-  border: 1px solid var(--border-glass);
-  color: var(--text-primary);
-  padding: 5px 10px;
-  border-radius: 10px;
-  font-size: 13px;
-  font-weight: 60;
+  font-family: var(--font-primary, 'Outfit', sans-serif);
+  font-size: 15px;
+  font-weight: 400;
+  color: #b0b0b0; /* Light grey color (tasveer jesa) */
+  text-decoration: none;
   cursor: pointer;
-  transition: all 0.3s ease;
-
-  display: flex;
-  align-items: center;
-
+  transition: color 0.3s ease;
+  /* Puranay boxes aur borders hata diye */
 }
 
 .navLink:hover {
-  color: yellow;
-  background: black;
-  border-color: red;
-  transform: translateY(-2px);
+  color: #ffffff; /* Hover karne par text bright white ho jayega */
+  transform: translateY(-1px); /* Halka sa upar uthne ka effect */
 }
 
 .themeToggle {
-  background: var(--surface-glass);
-  border: 1px solid var(--border-glass);
-  color: var(--text-primary);
-  padding: 8px 16px;
-  border-radius: 100px;
-  font-size: 13px;
+  background: #ffffff; /* Tasveer jesa White button */
+  color: #1c1c1c; /* Black text */
+  border: none;
+  padding: 12px 24px;
+  border-radius: 9999px; /* Golai (Pill Shape) */
+  font-family: var(--font-primary, 'Outfit', sans-serif);
+  font-size: 14px;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.3s ease;
-  margin-left: 16px;
+  transition: all 0.2s ease;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
+  white-space: nowrap;
 }
 
 .themeToggle:hover {
-  background: var(--surface-glass-hover);
-  border-color: var(--border-glass-hover);
+  background: #f0f0f0; /* Hover par halka sa grey */
   transform: translateY(-2px);
+}
+
+.themeToggle:active {
+  transform: scale(0.96); /* Click par dabne ka effect */
+}
+
+/* Choti screens (Mobile/Tablet) ke liye Responsive Design */
+@media (max-width: 850px) {
+  .navLinks {
+    display: none; /* Jagah bachane ke liye links hide */
+  }
+  .navLogoText {
+    display: none; /* Logo ka text hide */
+  }
 }
 
 /* ===== Section 1: Welcome ===== */
