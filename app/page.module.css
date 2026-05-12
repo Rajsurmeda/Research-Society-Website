@@ -187,12 +187,12 @@
   align-items: center;
   justify-content: space-between;
   
-  /* Image jesa Dark Pill Design */
-  background: #1c1c1c; 
-  border-radius: 9999px; /* Golai (Pill Shape) */
-  padding: 8px 8px 8px 12px; /* Button aur logo ke ird-gird space */
+ 
+  background: #090358; 
+  border-radius: 9999px; 
+  padding: 8px 8px 8px 12px; 
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  pointer-events: auto; /* Nav items ko clickable banata hai */
+  pointer-events: auto; 
 }
 
 .navLogo {
@@ -202,51 +202,51 @@
 }
 
 .navLogoImg {
-  object-fit: contain; /* Image ko properly fit karega */
+  object-fit: contain; 
   border-radius: 50%;
   background-color: white;
-  width: 44px !important; /* Perfect circle bananay ke liye fix width */
-  height: 44px !important; /* Perfect circle bananay ke liye fix height */
-  padding: 6px; /* White circle ke andar image ko set karne ke liye */
+  width: 44px !important; 
+  height: 44px !important; 
+  padding: 6px; 
 }
 
 .navLogoText {
   font-family: var(--font-primary, 'Outfit', sans-serif);
   font-size: 20px;
   font-weight: 500;
-  color: #ffffff; /* Gradient hata kar image jesa white kar diya */
+  color: #ffffff; 
   letter-spacing: 0.5px;
 }
 
 .navLinks {
   display: flex;
-  gap: 24px; /* Links ke darmiyan spacing barha di */
+  gap: 24px; 
   align-items: center;
-  /* Purana green border aur padding hata di taake clean look aaye */
+  
 }
 
 .navLink {
   font-family: var(--font-primary, 'Outfit', sans-serif);
   font-size: 15px;
   font-weight: 400;
-  color: #b0b0b0; /* Light grey color (tasveer jesa) */
+  color: #b0b0b0; 
   text-decoration: none;
   cursor: pointer;
   transition: color 0.3s ease;
-  /* Puranay boxes aur borders hata diye */
+ 
 }
 
 .navLink:hover {
-  color: #ffffff; /* Hover karne par text bright white ho jayega */
-  transform: translateY(-1px); /* Halka sa upar uthne ka effect */
+  color: #ffffff;
+  transform: translateY(-1px); 
 }
 
 .themeToggle {
-  background: #ffffff; /* Tasveer jesa White button */
-  color: #1c1c1c; /* Black text */
+  background: #ffffff; 
+  color: #1c1c1c; 
   border: none;
   padding: 12px 24px;
-  border-radius: 9999px; /* Golai (Pill Shape) */
+  border-radius: 9999px; 
   font-family: var(--font-primary, 'Outfit', sans-serif);
   font-size: 14px;
   font-weight: 600;
